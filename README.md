@@ -1,18 +1,14 @@
-bitcoind-rpc.js
+crypticcoind-rpc.js
 ===============
 
-[![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcoind-rpc.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcoind-rpc)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcoind-rpc.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcoind-rpc?branch=master)
-
-A client library to connect to Bitcoin Core RPC in JavaScript.
+A client library to connect to CrypticCoin Core RPC in JavaScript.
 
 ## Get Started
 
-bitcoind-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+crypticcoind-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install bitcoind-rpc
+npm install https://github.com/crypticcoinvip/crypticcoind-rpc
 ```
 
 ## Examples
@@ -20,7 +16,7 @@ npm install bitcoind-rpc
 ```javascript
 var run = function() {
   var bitcore = require('bitcore');
-  var RpcClient = require('bitcoind-rpc');
+  var RpcClient = require('crypticcoind-rpc');
 
   var config = {
     protocol: 'http',
